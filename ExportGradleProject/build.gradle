@@ -3,10 +3,11 @@ apply plugin: 'android'
 dependencies {
     compile fileTree(dir: 'libs', include: '*.jar')
     compile project(':ExportGradleLibrary')
+    compile 'com.android.support:appcompat-v7:21.0.0'
 }
 
 android {
-    compileSdkVersion 19
+    compileSdkVersion 21
     buildToolsVersion "19.1.0"
 
     sourceSets {
